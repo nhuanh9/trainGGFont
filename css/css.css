@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.loading {
+	width: 100%;
+	height: 100%;
+	background: #f8bd7f;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+.logo {
+	border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.15);
+	box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.15);  
+}
+.khoiload {
+	position:fixed;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+	width: 200px;
+	height: 200px;
+	background: #e3dfc8;
+	border-radius: 50%;
+	margin-left: -100px;
+	margin-top: -100px;
+}
+.top {
+	width: 90%;
+	margin: auto;
+}
+.gioithieu {
+	padding: 20px;
+	border: thin solid black;
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	-webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.15);
+	box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.15);  
+	background: #f5f0f0; 
+}
+.motkhoi {
+	padding: 20px;
+	border: thin solid black;
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	-webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.15);
+	box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.15);  
+	background: #f5f0f0; 
+}
+.anh {
+	width: 500px;
+	margin: auto;
+	border-radius: 10px;
+	margin: 5px;
+}
+
+.chu-co-dung-font-moi{
+	font-family: 'Dancing Script', cursive; 
+	color: blue;
+	font-size: 30px;
+	font-weight: bold;
+}
